@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://trecobox.com.br/wp-content/uploads/2018/10/playstation-campanha-spirit-day-lgbt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas: 
+         "cabe cabe cabe"
+         "corp corp corp"
+         "corp corp corp";
+}
+
+.cabeca{
+   grid-area: cabe;
+}
+
+.braco{
+    grid-area: brac;
+}
+
+.corpo{
+    grid-area: corp;
+}
+
+.perna{
+    grid-area: pern;
+}
